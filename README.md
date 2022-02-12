@@ -6,7 +6,7 @@ Currently, it only has the backend (wich is fully functional) and the front is i
 It uses only one simple model named Task. For any action (except GET), a request body must be sent wich will be converted to and from this Task model, and has the following structure:\
 {\
   - "title": "[titleName]",\
-  - "description": "[taskDescription]"\
+  "description": "[taskDescription]"\
 }
 
 ### About Backend Operations
