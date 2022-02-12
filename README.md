@@ -13,7 +13,7 @@ It uses only one simple model named Task. For any action (except GET), a request
 
 ### Backend Operations
 Application has basic CRUD actions, which can be tested using any API platform like Postman, Insomnia or Swagger.\
-From  **"[hostname]/api/tasks"** the following actions are valid:\
+From  **"[hostname]/api/tasks"** the following actions are valid:
 * **/** -> GET: returns all Tasks stored in the Database.
 * **/:id** -> GET,POST,PUT,DELETE: returns, creates, updates or deletes (respectively) the specified task by its ID.
 
