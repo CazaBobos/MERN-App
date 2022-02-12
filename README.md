@@ -18,8 +18,8 @@ From  **"[hostname]/api/tasks"** the following actions are valid:\
 * **/:id** -> GET,POST,PUT,DELETE: returns, creates, updates or deletes (respectively) the specified task by its ID.
 
 **Examples:** \
-**PUT -> http://localhost:9999/api/tasks/6206f411229a98f23a84369c** will update the IDd task,\
-**POST -> http://localhost:9999/api/tasks/** will create a new task,\ 
+**PUT -> http://localhost:9999/api/tasks/6206f411229a98f23a84369c** will update the IDd task, \
+**POST -> http://localhost:9999/api/tasks/** will create a new task, \ 
 both work, provided the request body is built properly.
 
 
