@@ -1,6 +1,6 @@
 # MERN-App
 Fullstack MERN ToDo List Applications built with the MERN stack.\
-Currently, it only has the backend (wich is fully functional) and the front is in progress.\
+Currently, it only has the backend (wich is fully functional), while the frontend is in development.
 
 ### Backend Models
 It uses only one simple model named Task. For any action (except GET), a request body must be sent wich will be converted to and from this Task model, and has the following structure:\
