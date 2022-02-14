@@ -1,8 +1,8 @@
-# MERN-App
-Fullstack MERN ToDo List Applications built with the MERN stack.\
-Currently, it only has the backend (wich is fully functional), while the frontend is in development.
+# MongoExpress - API
+ToDo List API built with the ExpressJs and MongoDB as Database. \
+Works as a fully functional backend (wich is fully functional).
 
-### Backend Models
+### Models
 It uses only one simple model named Task. For any action (except GET), a request body must be sent wich will be converted to and from this Task model, and has the following structure:
 ```
 {
@@ -11,7 +11,7 @@ It uses only one simple model named Task. For any action (except GET), a request
 }
 ```
 
-### Backend Operations
+### Operations
 Application has basic CRUD actions, which can be tested using any API platform like Postman, Insomnia or Swagger.\
 From  **"[hostname]/api/tasks"** the following actions are valid:
 * **/** -> GET, POST: returns all Tasks stored in the Database, or creates a new one.
@@ -26,4 +26,4 @@ From  **"[hostname]/api/tasks"** the following actions are valid:
 - Styling: -
 - DataBase: MongoDB
 - Backend: ExpressJs
-- Frontend: ReactJs
+- Frontend: -
