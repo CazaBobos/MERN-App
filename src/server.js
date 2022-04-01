@@ -15,6 +15,9 @@ app.use(express.json());
 //ROUTES
 app.use('/api/tasks', require('./routes/task.routes'));
 
+//STATIC FILES
+app.use(express.static(path.join(__dirname,'public')));
+
 //SERVER START
 const PORT = app.get('port');
 app.listen(PORT,()=>{
